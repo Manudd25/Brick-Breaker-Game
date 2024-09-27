@@ -15,3 +15,8 @@ Simple and intuitive controls.
 Dynamic difficulty that scales as the player progresses.
 Optional power-ups that add excitement and variety to the gameplay.
 Increasing challenge with multiple levels and varying brick layouts.
+
+
+
+![image](https://github.com/user-attachments/assets/6a069291-1410-45b8-9b0d-21c7f7633b5a)
+
