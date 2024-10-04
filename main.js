@@ -7,10 +7,10 @@ let context;
 
 
 // player 
-let playerWidth = 80;
+let playerWidth = 80;    
 let playerHeight = 10; 
-let playerVelocityX = 10;
-
+let playerVelocityX = 15;
+0
 
 let player =  {
     x: boardWidth/2 - playerWidth/2, // gives the midpoint of the board. Subtracting playerWidth / 2 moves the paddle left by half of its width, ensuring it's perfectly centered.
@@ -137,7 +137,17 @@ function update() {
             }
             context.fillRect(block.x, block.y, block.width, block.height);
         }
+    }     
+
+    //next level
+    if (blockCount == 0) {
+        score += 100*blockRows*blockColumns; // bonus points
+        blockRows = Math.min(blockRows + 1, blockMaxRows);
+        createBlocks();
     }
+
+
+
     // score 
     context.font = "20px sans-serif";
     context.fillText(score, 10, 25);
@@ -233,6 +243,7 @@ function resetGame() {
         velocityY : ballVelocityY,
     }
     blockArray = [];
+    blockRows = 3;
     score = 0;
     createBlocks();
 }
