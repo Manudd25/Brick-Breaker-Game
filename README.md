@@ -7,6 +7,8 @@ Ball Physics: The ball moves in a continuous direction, bouncing off the paddle,
 Bricks: Each brick disappears when hit by the ball. Some bricks may require multiple hits to break.
 Winning Conditions: Players win by destroying all bricks on the screen. 
 
+Have fun! https://manudd25.github.io/Brick-Breaker-Game/ 
+
 
 ![image](https://github.com/user-attachments/assets/6a069291-1410-45b8-9b0d-21c7f7633b5a)
 
